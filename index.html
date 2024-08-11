@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--font awesome ka cdn link (icons ko use kr lenge jitne bhi font awesome me honge) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--title me icon me-->
+<link rel="icon" href="logo.png">
+
+
+<!-- google fonts  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+<title>Spotify - web player: music for everyone</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+
+        <!-- sidebar strt -->
+        <div class="sidebar">
+
+            <!-- home and search wala section -->
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+            <!-- library and boxes wala section -->
+            <div class="library">
+                <div class="options">
+                    <div class="lib_option nav_option">
+                        <img src="library_icon.png" alt="" srcset="">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+    
+                </div>
+
+                <div class="lib_box">
+                    <div class="box">
+                        <p class="box_p1">Create your first Playlist</p>
+                        <p class="box_p2">it's easy we'll help you</p>
+                        <button class="badge" id="create.html">Create Playlist</button>
+                    </div>
+
+                    <!-- strt chngs -->
+                     
+                     <!-- end changes -->
+
+                    <div class="box">
+                        <p class="box_p1">let's follow some podcasts to follow</p>
+                        <p class="box_p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- sidebar end -->
+
+        <!-- main content strt -->
+        <div class="main_content">
+                <div class="sticky_nav">
+                    <div class="sticky_nav_icons">
+                    <img src="backward_icon.png" alt="">
+                    <img src="forward_icon.png" alt="" class="hide">
+                    </div>
+
+                    <div class="sticky_nav_option">
+                    <button class="badge nav_item hide">Explore Premium</button>
+                    <button class="badge nav_item dark_badge"><i class="fa-regular fa-circle-down "></i> Install App</button>
+                    <i class="fa-regular fa-user nav_item"></i>
+                    </div>
+                </div>
+
+            <div class="cards">
+
+
+                <!-- one card -->
+                <h2>Recently Played</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <!-- one card end -->
+
+                <!-- 2 card -->
+                <h2>Tranding Now Near You</h2>
+                <div class="cards_container">
+                    <div class="card">
+                        <img src="card2img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <!-- 2 card end -->
+
+                 <!-- three card -->
+                 <h2>Featured Charts</h2>
+                 <div class="cards_container">
+                     <div class="card">
+                         <img src="card1img.jpeg" alt="" class="card_img">
+                         <p class="card_title">Top 50 - global</p>
+                         <p class="card_info">your daily updates of the most played tracks...</p>
+                     </div>
+                     <div class="card">
+                        <img src="card6img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card5img.jpeg" alt="" class="card_img">
+                        <p class="card_title">Top 50 - global</p>
+                        <p class="card_info">your daily updates of the most played tracks...</p>
+                    </div>
+                 </div>
+                 <!-- three card end -->
+ 
+            </div>
+
+<div class="footer">
+    <div class="line"></div>
+</div>
+        </div>
+        <!-- main content end -->
+
+
+        <!-- music player strt -->
+        <div class="music_player">
+            <div class="album"></div>
+
+            <div class="player">
+                <div class="player_controls">
+                    <img src="player_icon1.png" class="player_control_icons">
+                    <img src="player_icon2.png" class="player_control_icons">
+                    <img src="player_icon3.png" class="player_control_icons main_icon">
+                    <img src="player_icon4.png" class="player_control_icons">
+                    <img src="player_icon5.png" class="player_control_icons">    
+                </div>
+                <div class="playback_bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress_bar" step="1">
+                    <span class="tot_time">3:33</span>
+                </div>
+            </div>
+
+            <div class="controls"></div>
+        </div>
+        <!-- music player strt -->
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
